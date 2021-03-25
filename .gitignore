@@ -36,6 +36,7 @@ Temporary Items
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
+.idea/
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
@@ -282,3 +283,8 @@ Thumbs.db #thumbnail cache on Windows
 
 
 # End of https://www.toptal.com/developers/gitignore/api/python,pycharm,macos
+
+# Exclude datasets
+eval_data/
+results2d/
+results3d/

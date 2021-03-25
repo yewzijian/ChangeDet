@@ -76,7 +76,7 @@ Our reconstructed sparse point clouds using our modified COLMAP pipeline can be 
 
 ### Images
 
-![alt text](change_annotation.jpg "Sample change annotations")
+![alt text](change_annotation.jpg "Sample images and change annotations")
 
 The 30 annotated image pairs used for our evaluation can be downloaded from <a href="https://www.icloud.com/iclouddrive/0KRk4kp-fTdWb8WJj0G112QdQ#eval%5Fdata" target="_blank">here</a> (374MB). The annotated groundtruths are in [dataset]/groundtruth folders, and are stored in a uint8 image where red/blue channels denote the appearance/disappearance of objects.
 
