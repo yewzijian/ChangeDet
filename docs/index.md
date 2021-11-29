@@ -33,8 +33,6 @@ We provide some of the raw and processed data here for download, which you can f
 
 ### Point Clouds
 
-*Note: under construction. COLMAP files will be uploaded at a later date.*
-
 Our reconstructed sparse point clouds using our modified COLMAP pipeline can be downloaded in this section. We provide the point clouds in either .pcd or COLMAP format. Both contain the same point cloud, although the COLMAP version may be useful as it provides additional information such as the poses of the reconstructed cameras. For the .pcd format, we also provide our registered point clouds. In both datasets, we align run 0 (earlier run) to run 1 (later run). The point coordinates as well as camera pose are referenced to UTM coordinates (zone 48 north).
 
 <table>
@@ -49,23 +47,33 @@ Our reconstructed sparse point clouds using our modified COLMAP pipeline can be 
     <tr>
       <td>Business District</td>
       <td>
-        Raw [<a href="https://www.icloud.com/iclouddrive/0QS2VqIwYgS3YuNKvnTxWNZXA#BusinessDistrict%5Ft0" target="_blank">.pcd </a>] [colmap]
+        Raw 
+          [<a href="https://mega.nz/file/okkQnArC#XdxNg7xv-7gn89TjikI4Z76PJ2tGXO8SJNmzToG-aM8" target="_blank">.pcd </a>] 
+          [<a href="https://mega.nz/file/IwlAWKqY#8ixf-nlLCJEyWjN1Pr929Ao3KtfDPST6gcmaSC1y3-k" target="_blank">colmap</a>]
         <br />
-        Registered [<a href="https://www.icloud.com/iclouddrive/0WdmgLWXYsr38yJbPCkXSuTbg#BusinessDistrict%5Ft0%5Fwarped" target="_blank">.pcd</a>]
+        Registered 
+          [<a href="https://mega.nz/file/M4s0XKzT#GQ9rq0upD0_7OZQImWuC0GfW4vnh9VAdd-GvEUMaXs8" target="_blank">.pcd</a>]
       </td>
       <td>
-        Raw [<a href="https://www.icloud.com/iclouddrive/0q3ypZ-TqRr6_m8_A3u4f4iEA#BusinessDistrict%5Ft1" target="_blank">.pcd</a>] [colmap]
+        Raw 
+          [<a href="https://mega.nz/file/ZltCxYSK#9xcuwEL4RuIe3Sksu_q_XHAYgcdAgDUNXm1yIUcF5Aw" target="_blank">.pcd</a>] 
+          [<a href="https://mega.nz/file/MttUXaAD#VF52EJKSYtlHdgPks96gBqe_tVAsvOLT25LrprL51wE" target="_blank">colmap</a>]
       </td>
     </tr>
     <tr>
       <td>Research Town</td>
       <td>
-        Raw [<a href="https://www.icloud.com/iclouddrive/0Uo0cryKOAitKPTy2Z_T4bx8g#ResearchTown%5Ft0" target="_blank">.pcd</a>] [colmap]
+        Raw 
+          [<a href="https://mega.nz/file/cl9kyIyZ#sX4Vasy2pRZ6uU6TIvbxI26QE00abSY8KNZYwlr3U9k" target="_blank">.pcd</a>] 
+          [<a href="https://mega.nz/file/Eg1iEI5a#w_b8aVKbHiz1S1QNslOqL8wKHJeu4Y9NZPK612kPsFE" target="_blank">colmap</a>]
         <br />
-        Registered [<a href="https://www.icloud.com/iclouddrive/0I2r-jOSreGVMW7sI3ASSnUWw#ResearchTown%5Ft0%5Fwarped" target="_blank">.pcd</a>]
+        Registered 
+          [<a href="https://mega.nz/file/QxtiHAba#OZiOMzsARZDeGYr-83Lq08nvk_CdufZ_VmX-qd9XrtM" target="_blank">.pcd</a>]
       </td>
       <td>
-        Raw [<a href="https://www.icloud.com/iclouddrive/0pcudEZkvYaicZRKnaaVAorCw#ResearchTown%5Ft1" target="_blank">.pcd</a>] [colmap]
+        Raw 
+          [<a href="https://mega.nz/file/Rs9EVagY#AxhuCm1sDGfVlB1-IBlbrLmWmqt74tXEiVxNKNoRXok" target="_blank">.pcd</a>] 
+          [<a href="https://mega.nz/file/J9lkkYpB#coOgx-NbtTN2bpevE-UOfN_Sv-wGfd_KSuBlJN3tzP0" target="_blank">colmap</a>]
       </td>
     </tr>
   </tbody>
@@ -74,26 +82,28 @@ Our reconstructed sparse point clouds using our modified COLMAP pipeline can be 
 
 
 
+
+
 ### Images
 
 ![alt text](change_annotation.jpg "Sample images and change annotations")
 
-The 30 annotated image pairs used for our evaluation can be downloaded from <a href="https://www.icloud.com/iclouddrive/0KRk4kp-fTdWb8WJj0G112QdQ#eval%5Fdata" target="_blank">here</a> (374MB). The annotated groundtruths are in [dataset]/groundtruth folders, and are stored in a uint8 image where red/blue channels denote the appearance/disappearance of objects.
+The 30 annotated image pairs used for our evaluation can be downloaded from <a href="https://mega.nz/file/Nt1mDI5Z#97jrRV-a0pbqpEh7aB_zR18FtAGx--_dnmFEqL3V0_k" target="_blank">here</a> (379MB). The annotated groundtruths are in [dataset]/groundtruth folders, and are stored in a uint8 image where red/blue channels denote the appearance/disappearance of objects.
 
 ## Results
 
-Our detected 3D changes can be downloaded [here](https://www.icloud.com/iclouddrive/0PEDgOJvWiVfBoESm6OoQWnTA#results3d). For both datasets the changes are stored using several files:
+Our detected 3D changes can be downloaded [here](https://mega.nz/file/tw8AyIAQ#vtChEd4h65rdQrEKfqmE5SjrxuRchV6m7bawjXMhCfI). For both datasets the changes are stored using several files:
 
 * <u>[dataset]/changes3d.pcd</u>: Point cloud containing the $$N$$ change points
 
 * <u>[dataset]/reponse.bin</u>: Contains the "response" of each point in the above change point cloud. This is a binary file containing $$N$$ float32 numbers, where each number indicates the distance to the nearest point in the other point cloud. Negative number indicate the points are present in Run 2 but not Run 1, vice versa for positive numbers.
 
-* <u>[dataset]/ref_cameras.pickle</u>: Dictionary containing the intrinsics/extrinsics for each image in Run 1. This contains a subset of the information of the COLMAP data files required to project changed points onto the image plane. For each reference image, we store a Python namedtuple ($$q_{wc}, t_{wc}, \text{intrinsics}, \text{img_wh})$$, where
+* <u>[dataset]/ref_cameras.pickle</u>: Dictionary containing the intrinsics/extrinsics for each image in Run 1. This contains a subset of the information of the COLMAP data files required to project changed points onto the image plane. For each reference image, we store a Python namedtuple ($$q_{wc}, t_{wc}, \text{intrinsics}, \text{img\_wh})$$, where
   * $$(q_{wc}, t_{wc})$$: Camera extrinsics that map points from the camera frame to the world frame as $$p_w = R_{wc} \, p_c + t_{wc}$$, where $$R_{wc}$$ is the rotation matrix corresponding to the quaternion $$q_{wc}$$
   * $$\text{intrinsics}$$: $$f_x, f_y, c_x, c_y$$, and distortion coefficients $$k_1, k_2, p_1, p_2$$
-  * $$\text{img_wh}$$: (Image width, image height)
+  * $$\text{img\_wh}$$: (Image width, image height)
 
-Alternatively, you can also download our projected changes from <a href="https://www.icloud.com/iclouddrive/0DKUk3dk4vF7y2C2YcoJ6UaPA#results%5Fprojected" target="_blank">here</a>.
+Alternatively, you can also download our projected changes from <a href="https://mega.nz/file/Q99EWIxK#ltYbAG_iHfF7LzoTMS_GifIBTxxjxvKVa_GH__ZxOek" target="_blank">here</a>.
 
 ## Sample code
 

@@ -13,8 +13,8 @@ This "src/" folder in this repository contains some useful codes for the followi
 
 Download the annotated images from the [project website](https://yewzijian.github.io/ChangeDet/), place them in the "eval_data/" folder. Then run the following code to visualize the images:
 
-```
-python src/visualize.py
+```bash
+python visualize.py
 ```
 
 Disappearance and appearance of objects are marked in blue and red respectively.
@@ -27,14 +27,14 @@ Disappearance and appearance of objects are marked in blue and red respectively.
 
 3. Project the detected changes onto the 2D test images, by running:
 
-   ```
-   python src/project_changes.py
+   ```bash
+   python project_changes.py
    ```
 
    The projected changes will be placed in the "results/" folder.
 4. Lastly, run the evaluation code to compute the evaluation metrics.
 
-   ```
+   ```bash
    python evaluate.py
    ```
 
